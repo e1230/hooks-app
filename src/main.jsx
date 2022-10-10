@@ -12,10 +12,12 @@ import { Padre } from './07-tarea-memo/Padre'
 //import { CounterCustomHook } from './01-useState/counterCustomHook'
 //import { HooksApp } from './HooksApp'
 //import { SimpleForm } from './02-useEffect/simpleForm'
-import './index.css'
+import './index.css';
+//import "./08-useReducer/intro-reducer";
+import { TodoApp } from './08-useReducer/TodoApp';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   //<React.StrictMode>
-    <Padre />
+    <TodoApp />
   //</React.StrictMode>
 )
